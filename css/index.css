@@ -30,10 +30,10 @@ h6 {
   margin-top: 20vh;
   margin-left: auto;
   margin-right: auto;
-  padding-top: var(--spacing40);
+  padding-top: var(--spacing28);
   padding-right: var(--spacing40);
   padding-left: var(--spacing40);
-  padding-bottom: var(--spacing40);
+  padding-bottom: var(--spacing28);
   border-radius: 1.5rem;
 }
 
