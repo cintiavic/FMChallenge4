@@ -221,3 +221,15 @@ h6{
 .attribution a{
     text-decoration: underline;
 }
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 400px) {
+    .main-container{
+        width:100%;
+        margin:0;
+        
+    }
+    
+}
