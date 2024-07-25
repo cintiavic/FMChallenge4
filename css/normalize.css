@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-size:1rem;
+    margin-top:0;
+    margin-bottom:0;
+    line-height: 1;
+}
+
+p{
+    margin:0;
+    padding:0;
+   
+}
+
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color:inherit;
+    cursor:pointer;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+
