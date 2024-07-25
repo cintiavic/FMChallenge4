@@ -1,239 +1,246 @@
 @import url(./variables.css);
 @import url(./normalize.css);
 
-html{
-    font-family: var(--base-font);
-    font-size: 16px;
-    color: var(--dark-charcoal);
-    background-color: var(--eggshell);
+html {
+  font-family: var(--base-font);
+  font-size: 16px;
+  color: var(--dark-charcoal);
+  background-color: var(--eggshell);
 }
 
-
-
-
-h3{
-    font-family:var(--headings-font);
-    color: var(--dark-raspberry);
-    font-size:var(--heading3);
-    font-weight: var(--regular);
-    line-height: 1;
-    margin-bottom: var(--spacing28);
-    
+h3 {
+  font-family: var(--headings-font);
+  color: var(--dark-raspberry);
+  font-size: var(--heading3);
+  font-weight: var(--regular);
+  line-height: 1;
+  margin-bottom: var(--spacing28);
 }
 
-h6{
-    font-size:var(--heading6);
-    color:var(--dark-raspberry);
-    line-height: 1rem;
-    margin-bottom:var(--spacing22);
+h6 {
+  font-size: var(--heading6);
+  color: var(--dark-raspberry);
+  line-height: 1rem;
+  margin-bottom: var(--spacing22);
 }
 
-.main-container{
-    width: 736px;
-    background-color: var(--white);
-    margin-top:20vh;
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:var(--spacing40);
-    padding-right:var(--spacing40);
-    padding-left:var(--spacing40);
-    padding-bottom:var(--spacing40);
-    border-radius:1.5rem;
+.main-container {
+  width: 736px;
+  background-color: var(--white);
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--spacing40);
+  padding-right: var(--spacing40);
+  padding-left: var(--spacing40);
+  padding-bottom: var(--spacing40);
+  border-radius: 1.5rem;
 }
 
-.main-container img{
-    border-radius:1rem;
+.main-container img {
+  border-radius: 1rem;
 }
-
 
 /* section{
     padding-top:var(--spacing32);
     padding-bottom:var(--spacing32);
 } */
 
+.title {
+  font-family: var(--headings-font);
+  font-weight: var(--regular);
+  font-size: var(--heading1);
+  margin-top: var(--spacing40);
+  margin-bottom: var(--spacing22);
 
-.title{
-    font-family:var(--headings-font);
-    font-weight: var(--regular);
-    font-size:var(--heading1);
-    margin-top:var(--spacing40);
-    margin-bottom:var(--spacing22);
-
-    padding:0;
-    color:var(--dark-charcoal);
+  padding: 0;
+  color: var(--dark-charcoal);
 }
 
 .title + p {
-    
-    font-weight: var(--regular);
-    line-height: 1.5rem;
-    color:var(--wenge-brown);
-    margin-bottom:var(--spacing32);
+  font-weight: var(--regular);
+  line-height: 1.5rem;
+  color: var(--wenge-brown);
+  margin-bottom: var(--spacing32);
 }
 
-.preparation-time{
-/*     margin-top:var(--spacing32); */
-    background-color: var(--rose-white);
-    border-radius:1rem;
-    padding:var(--spacing32);
-    margin-bottom:var(--spacing36);
+.preparation-time {
+  /*     margin-top:var(--spacing32); */
+  background-color: var(--rose-white);
+  border-radius: 1rem;
+  padding: var(--spacing32);
+  margin-bottom: var(--spacing36);
 }
 
-.preparation__line, .ingredients__line{
-    
-    list-style-type: none;
-    position:relative;
-    color:var(--wenge-brown);
-    font-size:1rem;
-    line-height: 1rem;
-    margin-bottom:var(--spacing16);
-    padding-left:var(--spacing28);
-   
+.preparation__line,
+.ingredients__line {
+  list-style-type: none;
+  position: relative;
+  color: var(--wenge-brown);
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: var(--spacing16);
+  padding-left: var(--spacing28);
 }
-
 
 .preparation__line span {
-    font-weight: var(--bolder);
+  font-weight: var(--bolder);
 }
 
 .preparation__line::before {
-    content: '•'; /* Caracter de bullet */
-    color: var(--dark-raspberry); /* Color deseado para el bullet */
-    font-size: 1.5rem; /* Tamaño del bullet */
-    position: absolute;
-    left: 0;
-    padding-left:var(--spacing8);
-   /*  top: 0.1em;  *//* Ajuste vertical del bullet */
+  content: "•"; /* Caracter de bullet */
+  color: var(--dark-raspberry); /* Color deseado para el bullet */
+  font-size: 1.5rem; /* Tamaño del bullet */
+  position: absolute;
+  left: 0;
+  padding-left: var(--spacing8);
+  /*  top: 0.1em;  */ /* Ajuste vertical del bullet */
 }
 
-.preparation__line:last-child{
-    margin-bottom:0;
+.preparation__line:last-child {
+  margin-bottom: 0;
 }
 
 .ingredients__line::before {
-    content: '▪'; /* Caracter de bullet */
-    color: var(--dark-raspberry); /* Color deseado para el bullet */
-    font-size: 1rem; /* Tamaño del bullet */
-    position: absolute;
-    left: 0;
-    padding-left:var(--spacing8);
-   /*  top: 0.1em;  *//* Ajuste vertical del bullet */
+  content: "▪"; /* Caracter de bullet */
+  color: var(--dark-raspberry); /* Color deseado para el bullet */
+  font-size: 1rem; /* Tamaño del bullet */
+  position: absolute;
+  left: 0;
+  padding-left: var(--spacing8);
+  /*  top: 0.1em;  */ /* Ajuste vertical del bullet */
 }
 
-.ingredients__line:last-child{
-    margin-bottom:0;
+.ingredients__line:last-child {
+  margin-bottom: 0;
 }
-.ingredients-section{
-    padding-bottom:var(--spacing32);
-    border-bottom: 0.1rem solid;
-    border-color: var(--light-grey);
+.ingredients-section {
+  padding-bottom: var(--spacing32);
+  border-bottom: 0.1rem solid;
+  border-color: var(--light-grey);
 }
 
-.instructions-section{
-    padding-bottom:var(--spacing32);
-    padding-top:var(--spacing32);
-    border-bottom: 0.1rem solid;
-    border-color: var(--light-grey);
+.instructions-section {
+  padding-bottom: var(--spacing32);
+  padding-top: var(--spacing32);
+  border-bottom: 0.1rem solid;
+  border-color: var(--light-grey);
 }
 
 .instructions-list {
-    counter-reset: list-counter; /* Reinicia el contador para la lista */
-    list-style: none; /* Elimina el estilo de lista predeterminado */
-    padding-left: var(--spacing8); /* Espacio para los números */
+  counter-reset: list-counter; /* Reinicia el contador para la lista */
+  list-style: none; /* Elimina el estilo de lista predeterminado */
+  padding-left: var(--spacing8); /* Espacio para los números */
 }
 
 .instructions-list li {
-    position: relative;
-    margin-bottom: var(--spacing16);
-    padding-left: var(--spacing32); /* Espacio para los números */
-    color:var(--wenge-brown);
+  position: relative;
+  margin-bottom: var(--spacing16);
+  padding-left: var(--spacing32); /* Espacio para los números */
+  color: var(--wenge-brown);
 }
 
 .instructions-list li::before {
-    content: counter(list-counter) ". "; /* Agrega el número y un punto */
-    counter-increment: list-counter; /* Incrementa el contador */
-    position: absolute;
-    left: 0;
-    color: var(--dark-raspberry); /* Color del número */
-    font-weight: var(--bolder); /* Grosor del número */
-    font-size: 1rem; /* Tamaño del número */
+  content: counter(list-counter) ". "; /* Agrega el número y un punto */
+  counter-increment: list-counter; /* Incrementa el contador */
+  position: absolute;
+  left: 0;
+  color: var(--dark-raspberry); /* Color del número */
+  font-weight: var(--bolder); /* Grosor del número */
+  font-size: 1rem; /* Tamaño del número */
 }
 
 .instructions-list li span {
-    font-weight: var(--bolder);
+  font-weight: var(--bolder);
 }
 
 .instructions-list li:last-child {
-    margin-bottom:0;
+  margin-bottom: 0;
 }
 
-.nutrition-section{
-    padding-top:var(--spacing32);
-    color:var(--wenge-brown);
+.nutrition-section {
+  padding-top: var(--spacing32);
+  color: var(--wenge-brown);
 }
 
-.nutrition-section>p{
-   margin-bottom:var(--spacing12);
+.nutrition-section > p {
+  margin-bottom: var(--spacing12);
 }
 
-.tabla-nutricional{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Define 2 columnas de igual tamaño */
-    grid-template-rows: repeat(4, auto); /* Define 4 filas con altura automática */
-    /* gap: var(--spacing16); Espacio entre los elementos de la grid */
+.tabla-nutricional {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Define 2 columnas de igual tamaño */
+  grid-template-rows: repeat(
+    4,
+    auto
+  ); /* Define 4 filas con altura automática */
+  /* gap: var(--spacing16); Espacio entre los elementos de la grid */
 }
 
-
-.tabla-nutricional__linea{
-    display:contents; /* Permite que los elementos hijos se alineen en la grid */
-    padding-top:var(--spacing12);
-    padding-bottom:var(--spacing12);
-
+.tabla-nutricional__linea {
+  display: contents; /* Permite que los elementos hijos se alineen en la grid */
+  padding-top: var(--spacing12);
+  padding-bottom: var(--spacing12);
 }
 
 .tabla-nutricional__linea p {
-    margin: 0;
-    padding: var(--spacing12);
-    display: flex;
-    align-items: center;
-    border-bottom: 0.1rem solid;
-    border-color: var(--light-grey);
+  margin: 0;
+  padding: var(--spacing12);
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid;
+  border-color: var(--light-grey);
 }
 
 .tabla-nutricional__linea p:last-of-type {
-    font-weight: var(--bolder);
-    color:var(--dark-raspberry);
+  font-weight: var(--bolder);
+  color: var(--dark-raspberry);
 }
 
-.ultima p{
-    border-bottom: none;
+.ultima p {
+  border-bottom: none;
 }
 
-.attribution{
-    color:var(--wenge-brown);
-   margin-left:auto;
-   margin-right:auto;
-   margin-top:var(--spacing40);
-    margin-bottom: 20vh;
-    text-align:center;
+.attribution {
+  color: var(--wenge-brown);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: var(--spacing40);
+  margin-bottom: 20vh;
+  text-align: center;
 }
 
-.attribution a{
-    text-decoration: underline;
+.attribution a {
+  text-decoration: underline;
 }
-
 
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 640px) {
-    .main-container{
-        width:100%;
-        margin:0;
-        border:none;
-            }
+  .main-container {
+    width: 100%;
+    margin: 0;
+    border: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+  }
 
-    html{
-        background-color: white;
-    }
-    
+  .main-container img {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  html {
+    background-color: white;
+  }
+
+  .heading-section,.ingredients-section,.instructions-section, .nutrition-section{
+    padding-right: var(--spacing40);
+    padding-left: var(--spacing40);
+  }
+
+  .preparation__line,
+.ingredients__line {
+    line-height:1.5rem;}
 }
